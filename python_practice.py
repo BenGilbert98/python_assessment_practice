@@ -36,12 +36,23 @@
 
 # Create a class called person with name and age
 
-# class Person:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-#
-#
-# me = Person("Ben", 22)
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+me = Person("Ben", 22)
 # print(me.name)
 # print(me.age)
+
+
+class Student(Person):
+    def __init__(self, name, age, student_id, course):
+        super().__init__(name, age)
+        self.student_id = student_id
+        self.course = course
+
+
+student = Student("Ben", 22, 1, "devops")
+print(student.name, student.age,student.student_id, student.course)
