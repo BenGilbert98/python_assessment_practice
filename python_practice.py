@@ -36,23 +36,50 @@
 
 # Create a class called person with name and age
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-
-me = Person("Ben", 22)
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#
+# me = Person("Ben", 22)
 # print(me.name)
 # print(me.age)
 
+# Inherit person into new class student
+# class Student(Person):
+#     def __init__(self, name, age, student_id, course):
+#         super().__init__(name, age) # super method is used to inherit from the parent class to access its attributes and methods
+#         self.student_id = student_id
+#         self.course = course
+#
+#
+# student = Student("Ben", 22, 1, "devops")
+# print(student.name, student.age,student.student_id, student.course)
 
-class Student(Person):
-    def __init__(self, name, age, student_id, course):
-        super().__init__(name, age)
-        self.student_id = student_id
-        self.course = course
+# create a dictionary and add the item values
+# new_dictionary = {"bread": 4, "garlic bread": 5, "baguette": 6, "egg": 7}
+# print(new_dictionary)
+# print(type(new_dictionary))
+# new_dictionary["big bread"] = 8
+# # this will add big bread to the last index in the list
+# print(new_dictionary)
+
+# print(sum(new_dictionary.values()))
+
+# function to do the same
+# def sum_items():
+#     return print(sum(new_dictionary.values()))
+#
+# sum_items()
+
+my_list = ["hi", "hello", "hey", "greetings"]
+for i in my_list:
+    if i == "hello":
+        break
+    print(i)
 
 
-student = Student("Ben", 22, 1, "devops")
-print(student.name, student.age,student.student_id, student.course)
+
+
+
