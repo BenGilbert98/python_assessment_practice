@@ -7,14 +7,29 @@
 
 # create a tuple 1-5
 
-my_tuple = (1, 2, 3, 4, 5)
-print(my_tuple)
-print(type(my_tuple))
+# my_tuple = (1, 2, 3, 4, 5)
+# print(my_tuple)
+# print(type(my_tuple))
 
-num_set = {1, 2, 3, 4, 5}
+# num_set = {1, 2, 3, 4, 5}
+#
+# for number in num_set:
+#     if number <= 3:
+#         print(number)
+#     else:
+#         break
 
-for number in num_set:
-    if number <= 3:
-        print(number)
-    else:
-        break
+# declare a dictionary of a shopping list with three items
+# dictionary = {"items": ("bread", "garlic bread", "baguette"), "price": ("1", "3", "5")}
+# print(dictionary)
+# print(type(dictionary))
+# print(dictionary["price"])
+
+# append item in dictionary
+# dictionary_2 = {"items": "bread", "price": "1"}
+# dictionary_2["price"] = "5"
+# print(dictionary_2)
+
+# function to add 2 numbers
+# def add(num1, num2):
+#     return num1 + num2
