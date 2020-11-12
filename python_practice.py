@@ -33,3 +33,15 @@
 # function to add 2 numbers
 # def add(num1, num2):
 #     return num1 + num2
+
+# Create a class called person with name and age
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#
+# me = Person("Ben", 22)
+# print(me.name)
+# print(me.age)
